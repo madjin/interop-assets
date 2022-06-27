@@ -1,0 +1,9 @@
+<FireBoxRoom>
+<Assets>
+<AssetObject id="head" mtl="https://webxr.hashbase.io/avatars/chibiis/female/mtls1/head_male10.mtl" src="https://webxr.hashbase.io/avatars/chibiis/female/head_male.obj" />
+<AssetObject id="body" mtl="https://webxr.hashbase.io/avatars/chibiis/female/mtls1/body_male10.mtl" src="https://webxr.hashbase.io/avatars/chibiis/female/body_male.obj" />
+</Assets>
+<Room>
+<Ghost id="chibiif_10" scale="1.4 1.4 1.4" lighting="false" body_id="body" head_id="head" anim_id="type" userid_pos="0 0.5 0" head_pos="0 0.9 0" cull_face="none" />
+</Room>
+</FireBoxRoom>

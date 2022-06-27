@@ -1,0 +1,8 @@
+<FireBoxRoom>
+<Assets>
+<AssetObject id="screen" src="https://webxr.hashbase.io/avatars/hoverscreen/hoverscreen.obj" mtl="https://webxr.hashbase.io/avatars/hoverscreen/hoverscreen.mtl" />
+</Assets>
+<Room>
+<Ghost id="bravechicken84" head_id="screen" head_pos="0 1.4 0" body_id="" eye_pos="0 1.6 0" userid_pos="0 0.5 0" cull_face="back" />
+</Room>
+</FireBoxRoom>

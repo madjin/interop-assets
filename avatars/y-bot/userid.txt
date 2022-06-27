@@ -1,0 +1,19 @@
+<FireBoxRoom>
+<Assets>
+<AssetObject id="run" src="https://webxr.hashbase.io/avatars/y-bot/run.fbx.gz" />
+<AssetObject id="type" src="https://webxr.hashbase.io/avatars/y-bot/type.fbx.gz" />
+<AssetObject id="walk_left" src="https://webxr.hashbase.io/avatars/y-bot/walk_left.fbx.gz" />
+<AssetObject id="fly" src="https://webxr.hashbase.io/avatars/y-bot/fly.fbx.gz" />
+<AssetObject id="jump" src="https://webxr.hashbase.io/avatars/y-bot/jump.fbx.gz" />
+<AssetObject id="portal" src="https://webxr.hashbase.io/avatars/y-bot/portal.fbx.gz" />
+<AssetObject id="walk_right" src="https://webxr.hashbase.io/avatars/y-bot/walk_right.fbx.gz" />
+<AssetObject id="body" src="https://webxr.hashbase.io/avatars/y-bot/Beta.fbx.gz" />
+<AssetObject id="walk" src="https://webxr.hashbase.io/avatars/y-bot/walk.fbx.gz" />
+<AssetObject id="speak" src="https://webxr.hashbase.io/avatars/y-bot/speak.fbx.gz" />
+<AssetObject id="idle" src="https://webxr.hashbase.io/avatars/y-bot/idle.fbx.gz" />
+<AssetObject id="walk_back" src="https://webxr.hashbase.io/avatars/y-bot/walk_back.fbx.gz" />
+</Assets>
+<Room>
+<Ghost id="test" pos="0.008201 0 2.909963" xdir="0.999983 0 -0.005818" ydir="0.000144 0.999694 0.024716" zdir="0.005817 -0.024717 0.999678" scale="0.0095 0.0095 0.0095" col="#e0a1b6" head_pos="0 0 0" body_id="body" anim_id="type" />
+</Room>
+</FireBoxRoom>
