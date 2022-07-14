@@ -1,0 +1,19 @@
+newmtl Weave Fabric
+illum 7
+Kd 0 0 0
+adobe_interior_color 1 1 1
+Ni 1.6
+adobe_density 0
+Tr 0
+d 1
+Ka 0 0 0
+Ke 0 0 0
+map_Pm wovenpants/Weave Fabric_metallic.png
+adobe_translucence 0
+map_Pr wovenpants/Weave Fabric_roughness.psd
+Ns 16
+Ks 1 1 1
+adobe_glow 0
+map_Kd wovenpants/Weave Fabric_baseColor.png
+norm wovenpants/Weave Fabric_normal.psd
+disp wovenpants/Weave Fabric_height.psd

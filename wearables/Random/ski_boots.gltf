@@ -1,0 +1,390 @@
+{
+    "asset": {
+        "copyright": "2020 (c) Adobe Inc.",
+        "generator": "Adobe Dimension - 3de52ae4ccc0c25be48106335282fae5a6a58dee",
+        "version": "2.0"
+    },
+    "accessors": [
+        {
+            "bufferView": 0,
+            "componentType": 5126,
+            "count": 86949,
+            "type": "VEC3",
+            "max": [
+                0.07329599559307099,
+                0.33722466230392458,
+                0.16731302440166474
+            ],
+            "min": [
+                -0.05050400272011757,
+                -0.001583979930728674,
+                -0.11493700742721558
+            ]
+        },
+        {
+            "bufferView": 1,
+            "componentType": 5126,
+            "count": 86949,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 2,
+            "componentType": 5126,
+            "count": 86949,
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 3,
+            "componentType": 5125,
+            "count": 450000,
+            "type": "SCALAR",
+            "max": [
+                86948.0
+            ],
+            "min": [
+                0.0
+            ]
+        },
+        {
+            "bufferView": 4,
+            "componentType": 5126,
+            "count": 86375,
+            "type": "VEC3",
+            "max": [
+                0.06487290561199188,
+                0.3368988335132599,
+                0.15598900616168977
+            ],
+            "min": [
+                -0.0669909343123436,
+                -0.001835119677707553,
+                -0.12481799721717835
+            ]
+        },
+        {
+            "bufferView": 5,
+            "componentType": 5126,
+            "count": 86375,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 6,
+            "componentType": 5126,
+            "count": 86375,
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 7,
+            "componentType": 5125,
+            "count": 450000,
+            "type": "SCALAR",
+            "max": [
+                86374.0
+            ],
+            "min": [
+                0.0
+            ]
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 1043388,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 1043388,
+            "byteLength": 1043388,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 2086776,
+            "byteLength": 695592,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 2782368,
+            "byteLength": 1800000,
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 4582368,
+            "byteLength": 1036500,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 5618868,
+            "byteLength": 1036500,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 6655368,
+            "byteLength": 691000,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 7346368,
+            "byteLength": 1800000,
+            "target": 34963
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 9146368,
+            "uri": "ski_boots_binary.bin"
+        }
+    ],
+    "cameras": [
+        {
+            "perspective": {
+                "znear": 0.00001405909006280126,
+                "yfov": 0.6024156808853149,
+                "zfar": 2.0,
+                "aspectRatio": 1.3333333730697632
+            },
+            "type": "perspective",
+            "name": "render_camera"
+        }
+    ],
+    "images": [
+        {
+            "name": "skiboot_left_withfill_2011_163_8ab-textured-0524288-150k-4096-diffuse",
+            "uri": "ski_boots_images\\skiboot_left_withfill_2011_163_8ab-textured-0524288-150k-4096-diffuse.jpg",
+            "mimeType": "image/jpeg"
+        },
+        {
+            "name": "ambient",
+            "uri": "ski_boots_images\\ambient.png",
+            "mimeType": "image/png"
+        },
+        {
+            "name": "skiboot_left_withfill_2011_163_8ab-textured-0524288-150k-4096-normals",
+            "uri": "ski_boots_images\\skiboot_left_withfill_2011_163_8ab-textured-0524288-150k-4096-normals.png",
+            "mimeType": "image/png"
+        },
+        {
+            "name": "skiboot_right_withfill_2011_163_8ab-textured-0524288-150k-4096-diffuse",
+            "uri": "ski_boots_images\\skiboot_right_withfill_2011_163_8ab-textured-0524288-150k-4096-diffuse.jpg",
+            "mimeType": "image/jpeg"
+        },
+        {
+            "name": "ambient_0",
+            "uri": "ski_boots_images\\ambient_0.png",
+            "mimeType": "image/png"
+        },
+        {
+            "name": "skiboot_right_withfill_2011_163_8ab-textured-0524288-150k-4096-normals",
+            "uri": "ski_boots_images\\skiboot_right_withfill_2011_163_8ab-textured-0524288-150k-4096-normals.png",
+            "mimeType": "image/png"
+        }
+    ],
+    "materials": [
+        {
+            "pbrMetallicRoughness": {
+                "baseColorTexture": {
+                    "index": 0
+                },
+                "metallicFactor": 0.0,
+                "roughnessFactor": 0.5
+            },
+            "normalTexture": {
+                "index": 2
+            },
+            "occlusionTexture": {
+                "index": 1
+            },
+            "name": "Default OBJ",
+            "doubleSided": true
+        },
+        {
+            "pbrMetallicRoughness": {
+                "baseColorTexture": {
+                    "index": 3
+                },
+                "metallicFactor": 0.0,
+                "roughnessFactor": 0.5
+            },
+            "normalTexture": {
+                "index": 5
+            },
+            "occlusionTexture": {
+                "index": 4
+            },
+            "name": "Default OBJ.001",
+            "doubleSided": true
+        }
+    ],
+    "meshes": [
+        {
+            "name": "skiboot_left_withfill_2011_163_8ab-textured-0524288-150k-unwrap",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 1,
+                        "POSITION": 0,
+                        "TEXCOORD_0": 2
+                    },
+                    "indices": 3,
+                    "material": 0
+                }
+            ]
+        },
+        {
+            "name": "skiboot_right_withfill_2011_163_8ab-textured-0524288-150k-unwra",
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 4,
+                        "NORMAL": 5,
+                        "TEXCOORD_0": 6
+                    },
+                    "indices": 7,
+                    "material": 1
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "translation": [
+                1.0070983171463013,
+                0.300652414560318,
+                0.7696133852005005
+            ],
+            "rotation": [
+                -0.12059047073125839,
+                0.379409521818161,
+                0.04995020851492882,
+                0.9159756302833557
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                0.9999999403953552
+            ],
+            "camera": 0,
+            "name": "render_camera_n3d"
+        },
+        {
+            "children": [
+                2,
+                3
+            ],
+            "translation": [
+                -0.09790802001953125,
+                0.11775856465101242,
+                0.04163556918501854
+            ],
+            "rotation": [
+                0.0,
+                0.9975640773773193,
+                0.0,
+                -0.06975633651018143
+            ],
+            "scale": [
+                1.5009998083114625,
+                0.9999991655349731,
+                1.7028343677520753
+            ],
+            "name": "ski-boots-worn-by-seba-johnson-150k-4096"
+        },
+        {
+            "translation": [
+                -0.012778472155332566,
+                -0.115682452917099,
+                -0.006478919647634029
+            ],
+            "rotation": [
+                0.0002772254520095885,
+                0.02268693409860134,
+                0.012216828763484955,
+                0.9996679425239563
+            ],
+            "scale": [
+                0.9998058080673218,
+                0.9998530745506287,
+                1.0003416538238526
+            ],
+            "mesh": 0,
+            "name": "skiboot_left_withfill_2011_163_8ab-textured-0524288-150k-unwrap"
+        },
+        {
+            "translation": [
+                -0.11960252374410629,
+                -0.11531787365674973,
+                -0.003694724990054965
+            ],
+            "rotation": [
+                -0.0006143071223050356,
+                -0.06104389950633049,
+                0.012240370735526085,
+                0.9980598092079163
+            ],
+            "scale": [
+                1.0001479387283326,
+                0.9998520016670227,
+                0.9999997615814209
+            ],
+            "mesh": 1,
+            "name": "skiboot_right_withfill_2011_163_8ab-textured-0524288-150k-unwra"
+        }
+    ],
+    "samplers": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+    ],
+    "scenes": [
+        {
+            "nodes": [
+                0,
+                1
+            ],
+            "name": "scene"
+        }
+    ],
+    "textures": [
+        {
+            "name": "tmp_image_pie_3b08_0d83_d285",
+            "sampler": 0,
+            "source": 0
+        },
+        {
+            "name": "ambient",
+            "sampler": 1,
+            "source": 1
+        },
+        {
+            "name": "tmp_image_pie_a2ec_0366_58c8",
+            "sampler": 2,
+            "source": 2
+        },
+        {
+            "name": "tmp_image_pie_cdff_465b_defb",
+            "sampler": 3,
+            "source": 3
+        },
+        {
+            "name": "ambient",
+            "sampler": 4,
+            "source": 4
+        },
+        {
+            "name": "tmp_image_pie_f054_471c_2af6",
+            "sampler": 5,
+            "source": 5
+        }
+    ],
+    "scene": 0
+}

@@ -1,0 +1,20 @@
+newmtl Fine Grain Plastic
+illum 7
+Kd 0 0 0
+adobe_interior_color 1 1 1
+Ni 1.6
+adobe_density 0
+Tr 0
+d 1
+Ka 0 0 0
+Ke 0 0 0
+map_Pm pants/Fine Grain Plastic_metallic.jpg
+adobe_translucence 0
+map_Pr pants/Fine Grain Plastic_roughness.jpg
+Ns 16
+Ks 1 1 1
+adobe_glow 0
+map_Kd pants/Fine Grain Plastic_baseColor.jpg
+norm pants/Fine Grain Plastic_normal.jpg
+disp pants/Fine Grain Plastic_height.jpg
+map_d pants/Fine Grain Plastic_opacity.jpg
